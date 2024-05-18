@@ -149,4 +149,38 @@ main{
     flex-direction: column;
 }
 
+@media  screen and (max-width : 768px) {
+    .baap{
+        display: flex;
+        flex-direction: column;
+    }
+    .cityname{
+        font-size: 2rem;
+    }
+    .country{
+        font-size: 1.01rem;
+    }
+    .temp{
+        font-size: 5.8rem;
+    }
+    .weatherstat{
+        font-size: 0.93rem;
+    }
+    .mainc{
+        margin-top: -5rem;
+    }
+    .loclogo{
+        margin-top: -13rem;
+        width: 40%;
+    }
+    .loclogochotu p,i{
+        font-size: 1.2rem;
+    }
+}
+@media  screen and (max-width : 510px) {
+    .loclogochotu p{
+        display: none;
+        font-size: 10rem;
+    }    
+}
 
