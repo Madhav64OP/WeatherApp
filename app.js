@@ -1,4 +1,4 @@
-const URL = "http://api.weatherapi.com/v1/current.json?key=9593595eee804c038e862030240803&q=Ambala&aqi=no";
+const URL = "https://api.weatherapi.com/v1/current.json?key=9593595eee804c038e862030240803&q=Ambala&aqi=no";
 
 let cityName = document.querySelector(".cityname p");
 let countryName = document.querySelector(".country p");
