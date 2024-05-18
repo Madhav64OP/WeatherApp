@@ -178,9 +178,23 @@ main{
     }
 }
 @media  screen and (max-width : 510px) {
+    .loclogo{
+        height: 62px;
+        width: 100%;
+    }
     .loclogochotu p{
         display: none;
-        font-size: 10rem;
     }    
+    .loclogochotu {
+        margin-top: -7rem;
+        height: 100%;
+        width: 55px;
+        border: 4px solid #155457;
+        border-radius: 27.6%;
+    }
+    .loclogochotu i{
+        font-size: 2rem;
+    }
+    
 }
 
